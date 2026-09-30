@@ -79,46 +79,6 @@ DEFAULT_ICAO=KJFK
 
 Never commit `.env.local`.
 
-## Roadmap — 4 to 6 weeks
-
-### Week 1 — Core monitoring
-- [x] Live aircraft map
-- [x] Flight counters
-- [x] Auto-refresh
-- [x] API error states
-- [x] Weather panel
-
-### Week 2 — Operations intelligence
-- [ ] Flight detail drawer
-- [ ] Track history
-- [ ] Altitude/speed charts
-- [ ] Airport watchlist
-- [ ] Aircraft search
-
-### Week 3 — Incident management
-- [ ] Alert rules
-- [ ] Geofence alerts
-- [ ] Diversion / abnormal-state workflow
-- [ ] Incident timeline
-- [ ] Acknowledgement / resolution states
-
-### Week 4 — Reliability engineering
-- [ ] Redis/cache layer
-- [ ] Provider health checks
-- [ ] Request-rate metrics
-- [ ] Structured logging
-- [ ] Retry/backoff
-- [ ] Graceful degraded mode
-
-### Weeks 5–6 — Portfolio polish
-- [ ] PostgreSQL persistence
-- [ ] Historical replay
-- [ ] Authentication/RBAC
-- [ ] Docker deployment
-- [ ] CI tests
-- [ ] Architecture diagram
-- [ ] Demo video/GIF
-- [ ] Production deployment
 
 ## Suggested next architecture
 
@@ -152,14 +112,6 @@ PostgreSQL
   ├── alerts
   └── incidents
 ```
-
-## Portfolio talking points
-
-A strong interview/demo narrative is:
-
-> "I built an aviation TechOps console that consumes live ADS-B surveillance and aviation weather data, normalizes provider responses behind server-side APIs, monitors data freshness, visualizes active traffic, and is designed to evolve into an incident-management platform."
-
-That communicates the same operational engineering concepts as a production monitoring console without pretending this is certified aviation software.
 
 ## Important
 
