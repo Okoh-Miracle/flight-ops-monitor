@@ -1,4 +1,4 @@
-# ✈️ Flight Operations Monitoring Dashboard
+# Flight Operations Monitoring Dashboard
 
 An airline-style **TechOps / Flight Operations Control dashboard** built around live aviation data.
 
